@@ -29,6 +29,7 @@ $(call inherit-product, vendor/revengeos/config/gsm.mk)
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 IS_PHONE := true
+REVENGEOS_BUILDTYPE := OFFICIAL
 
 PRODUCT_NAME := revengeos_sagit
 PRODUCT_DEVICE := sagit
