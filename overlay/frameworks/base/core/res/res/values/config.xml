@@ -162,6 +162,10 @@
     <!-- Flag indicating whether round icons should be parsed from the application manifest. -->
     <bool name="config_useRoundIcon">true</bool>
 
+    <!-- Stop listening to the fingerprint reader when NON-WAKEUP proximity sensor is covered & screen is off.
+         config_proximityCheckOnWake must be true. -->
+    <bool name="config_proximityCheckOnFingerprintWake">true</bool>
+
     <!-- Value for overriding outdoor capable mode for LiveDisplay tile -->
     <bool name="config_outdoorCapable">true</bool>
 </resources>
